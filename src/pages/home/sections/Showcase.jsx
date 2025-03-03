@@ -1,6 +1,7 @@
 import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
 
+
 // Sample product data
 const products = [
   {
@@ -8,28 +9,28 @@ const products = [
     name: "Tigernut Powder",
     description: "Rich in nutrients and perfect for smoothies.",
     price: "₵20.00",
-    image: "https://via.placeholder.com/300",
+    image: "https://images.pexels.com/photos/7615480/pexels-photo-7615480.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 2,
     name: "Pepper Powder",
     description: "Spicy and flavorful for your dishes.",
     price: "₵15.00",
-    image: "https://via.placeholder.com/300",
+    image: "https://images.pexels.com/photos/6690933/pexels-photo-6690933.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 3,
     name: "Okro Powder",
     description: "Adds thickness and nutrition to soups.",
     price: "₵18.00",
-    image: "https://via.placeholder.com/300",
+    image: "https://images.pexels.com/photos/4916115/pexels-photo-4916115.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
   {
     id: 4,
     name: "Prekese Powder",
     description: "Enhances the flavor of your meals.",
     price: "₵25.00",
-    image: "https://via.placeholder.com/300",
+    image: "https://images.pexels.com/photos/4198712/pexels-photo-4198712.jpeg?auto=compress&cs=tinysrgb&w=600",
   },
 ];
 

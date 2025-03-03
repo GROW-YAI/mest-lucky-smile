@@ -1,5 +1,7 @@
 import React from "react";
 import { FaLightbulb, FaHandsHelping, FaGlobeAfrica } from "react-icons/fa";
+import signwoman from "../../../assets/signwoman.jpg"; 
+
 
 const AboutInnovator = () => {
   // Innovator details
@@ -44,7 +46,7 @@ const AboutInnovator = () => {
           {/* Innovator Image */}
           <div className="flex justify-center">
             <img
-              src="/janet-tweneboah.jpg" // Replace with the innovator's image
+              src={signwoman} // Replace with the innovator's image
               alt="Janet Tweneboah"
               className="w-full max-w-md rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
             />
