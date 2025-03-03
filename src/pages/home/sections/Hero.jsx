@@ -17,8 +17,7 @@ const Hero = () => {
 
         {/* Subheading with Animation */}
         <p className="text-lg md:text-xl mb-8 animate-fade-in-delay">
-          Janet Tweneboah is revolutionizing food security with innovative
-          preservation methods for tigernut, pepper, okro, and prekese. Join us
+          Join us
           in reducing food waste and creating sustainable food sources.
         </p>
 
