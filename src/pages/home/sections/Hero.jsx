@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="relative flex justify-center items-center h-[80vh] bg-gradient-to-r from-amber-500 to-amber-700 overflow-hidden">
+    <div className="relative flex justify-center items-center h-[80vh] bg-gradient-to-r from-amber-500 to-amber-700 overflow-hidden pt-16">
       {/* Decorative Circles */}
       <div className="absolute w-64 h-64 bg-amber-400 rounded-full opacity-20 -top-32 -left-32 animate-float"></div>
       <div className="absolute w-48 h-48 bg-amber-400 rounded-full opacity-20 -bottom-24 -right-24 animate-float-delay"></div>
