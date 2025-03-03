@@ -181,7 +181,7 @@ const products = [
 const Showcase = () => {
   // Function to handle "Add to Cart"
   const handleAddToCart = (productId) => {
-    alert(`Added product ${productId} to cart!`);
+    // alert(`Added product ${productId} to cart!`);
     // You can integrate this with a state management library (e.g., Redux, Context API) or a shopping cart library.
   };
 
