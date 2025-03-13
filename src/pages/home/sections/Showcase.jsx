@@ -145,7 +145,7 @@ const products = [
     description: "Rich in nutrients and perfect for smoothies.",
     price: "₵20.00",
     image:
-      "https://images.pexels.com/photos/7615480/pexels-photo-7615480.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://nouveauraw.com/wp-content/uploads/2015/09/tigernut-flour-800.png",
     storefrontUrl: "https://paystack.com/buy/tigernut-powder-hhequg",
   },
   {
@@ -154,8 +154,8 @@ const products = [
     description: "Spicy and flavorful for your dishes.",
     price: "₵15.00",
     image:
-      "https://images.pexels.com/photos/6690933/pexels-photo-6690933.jpeg?auto=compress&cs=tinysrgb&w=600",
-    storefrontUrl: "https://paystack.com/buy/pepper-powder-xyz123", // Add the correct URL
+      "https://cdn.pixabay.com/photo/2019/10/08/18/08/paprika-4535670_640.jpg",
+    storefrontUrl: "https://paystack.com/buy/pepper-powder-iafxln", 
   },
   {
     id: 3,
@@ -163,8 +163,8 @@ const products = [
     description: "Adds thickness and nutrition to soups.",
     price: "₵18.00",
     image:
-      "https://images.pexels.com/photos/4916115/pexels-photo-4916115.jpeg?auto=compress&cs=tinysrgb&w=600",
-    storefrontUrl: "https://paystack.com/buy/okro-powder-abc456", // Add the correct URL
+      "https://m.media-amazon.com/images/I/61n1QnpAj-L.jpg",
+    storefrontUrl: "https://paystack.com/buy/okro-powder-ycxvow", 
   },
   {
     id: 4,
@@ -172,8 +172,8 @@ const products = [
     description: "Enhances the flavor of your meals.",
     price: "₵25.00",
     image:
-      "https://images.pexels.com/photos/4198712/pexels-photo-4198712.jpeg?auto=compress&cs=tinysrgb&w=600",
-    storefrontUrl: "https://paystack.com/buy/prekese-powder-def789", // Add the correct URL
+      "https://img.bobshop.co.za/image/upload/f_auto,q_auto:eco,c_fit,w_800,h_800,d_notfound.png/user_images/805/1734805/240620151444_AIDAN%20FRUIT%20POWDER.png",
+    storefrontUrl: "https://paystack.com/buy/prekese-powder-zxuxdw", 
   },
   // Add the rest of the products with their respective storefront URLs
 ];

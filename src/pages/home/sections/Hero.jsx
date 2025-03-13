@@ -39,7 +39,7 @@ const Hero = () => {
       </div>
 
       {/* Animated Scrolling Indicator */}
-      <div className="absolute bottom-8 animate-bounce">
+      {/* <div className="absolute bottom-8 animate-bounce">
         <svg
           className="w-8 h-8 text-white"
           fill="none"
@@ -54,7 +54,7 @@ const Hero = () => {
             d="M19 14l-7 7m0 0l-7-7m7 7V3"
           />
         </svg>
-      </div>
+      </div> */}
     </div>
   );
 };

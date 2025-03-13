@@ -142,6 +142,7 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -169,7 +170,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img
-            src="/logo.png" // Replace with your logo
+            src={logo} // Replace with your logo
             alt="Logo"
             className="w-10 h-10 rounded-full"
           />

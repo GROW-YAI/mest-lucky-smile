@@ -73,7 +73,7 @@ const Footer = () => {
                   href="mailto:janet@example.com"
                   className="text-gray-400 hover:text-amber-500 transition-colors"
                 >
-                  janet@example.com
+                  janetweneboah@gmail.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
@@ -82,7 +82,7 @@ const Footer = () => {
                   href="tel:+1234567890"
                   className="text-gray-400 hover:text-amber-500 transition-colors"
                 >
-                  +123 456 7890
+                  +233 246 552 072
                 </a>
               </li>
             </ul>
