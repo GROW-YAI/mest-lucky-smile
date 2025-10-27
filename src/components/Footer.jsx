@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   FaFacebook,
   FaTwitter,
@@ -7,12 +8,13 @@ import {
   FaEnvelope,
   FaPhone,
 } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa6"; // ✅ TikTok icon (from Font Awesome 6)
 
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-12">
           {/* About Section */}
           <div className="mb-8">
             <h3 className="text-xl font-bold mb-4">About Us</h3>
@@ -29,36 +31,36 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#home"
+                <Link
+                  to="/"
                   className="text-gray-400 hover:text-amber-500 transition-colors"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#about"
+                <Link
+                  to="/about-innovator"
                   className="text-gray-400 hover:text-amber-500 transition-colors"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#products"
+                <Link
+                  to="/products"
                   className="text-gray-400 hover:text-amber-500 transition-colors"
                 >
                   Products
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#contact"
+                <Link
+                  to="/contact"
                   className="text-gray-400 hover:text-amber-500 transition-colors"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -70,7 +72,7 @@ const Footer = () => {
               <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-amber-500" />
                 <a
-                  href="mailto:janet@example.com"
+                  href="mailto:janetweneboah@gmail.com"
                   className="text-gray-400 hover:text-amber-500 transition-colors"
                 >
                   janetweneboah@gmail.com
@@ -79,7 +81,7 @@ const Footer = () => {
               <li className="flex items-center space-x-2">
                 <FaPhone className="text-amber-500" />
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+233246552072"
                   className="text-gray-400 hover:text-amber-500 transition-colors"
                 >
                   +233 246 552 072
@@ -87,32 +89,12 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
-          {/* Newsletter Subscription */}
-          <div className="mb-8">
-            <h3 className="text-xl font-bold mb-4">
-              Subscribe to Our Newsletter
-            </h3>
-            <form className="flex flex-col space-y-4">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="p-2 rounded-lg bg-gray-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-amber-500"
-              />
-              <button
-                type="submit"
-                className="bg-amber-500 text-white px-4 py-2 rounded-lg hover:bg-amber-600 transition-colors"
-              >
-                Subscribe
-              </button>
-            </form>
-          </div>
         </div>
 
         {/* Social Media Links */}
         <div className="flex justify-center space-x-6 mt-8">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/17QZRGfBhb/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-amber-500 transition-colors"
@@ -136,12 +118,20 @@ const Footer = () => {
             <FaInstagram size={24} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/company/luckysmile/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-amber-500 transition-colors"
           >
             <FaLinkedin size={24} />
+          </a>
+          <a
+            href="https://www.tiktok.com/@luckysmile61"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-400 hover:text-amber-500 transition-colors"
+          >
+            <FaTiktok size={24} />
           </a>
         </div>
 
