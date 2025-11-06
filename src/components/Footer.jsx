@@ -1,13 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  FaFacebook,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedin,
-  FaEnvelope,
-  FaPhone,
-} from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6"; // ✅ TikTok icon (from Font Awesome 6)
 
 const Footer = () => {
@@ -100,22 +93,6 @@ const Footer = () => {
             className="text-gray-400 hover:text-amber-500 transition-colors"
           >
             <FaFacebook size={24} />
-          </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-amber-500 transition-colors"
-          >
-            <FaTwitter size={24} />
-          </a>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-amber-500 transition-colors"
-          >
-            <FaInstagram size={24} />
           </a>
           <a
             href="https://www.linkedin.com/company/luckysmile/"
