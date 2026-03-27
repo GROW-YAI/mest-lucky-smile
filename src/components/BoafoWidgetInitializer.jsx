@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 export default function BoafoWidgetInitializer() {
   useEffect(() => {
-    const BOAFO_API_KEY = import.meta.env.BOAFO_API_KEY;
+    const BOAFO_API_KEY = import.meta.env.VITE_BOAFO_API_KEY;
     
     // Dynamically load the Boafo widget script
     const script = document.createElement("script");

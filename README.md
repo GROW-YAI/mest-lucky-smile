@@ -109,7 +109,7 @@ pnpm install
 
 3. Replace `your_key_here` with your actual Boafo API key:
    ```
-   BOAFO_API_KEY=boafo_your_actual_key_here
+   VITE_BOAFO_API_KEY=boafo_your_actual_key_here
    ```
 
 4. Save the file
