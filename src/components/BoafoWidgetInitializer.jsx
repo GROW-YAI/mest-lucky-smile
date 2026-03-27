@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { initializeBoafoWidget } from "boafo-accessibility-widget";
 
 export default function BoafoWidgetInitializer() {
   useEffect(() => {
@@ -7,11 +8,15 @@ export default function BoafoWidgetInitializer() {
     // Dynamically load the Boafo widget script
     const script = document.createElement("script");
     script.src = "https://unpkg.com/boafo-accessibility-widget/public/widget.bundle.js";
-    script.setAttribute("data-api-key", BOAFO_API_KEY);
-    script.defer = true;
+    script.async = true;
     
-    // Append script to document
-    document.body.appendChild(script);
+    // Initialize widget after script loads
+    script.onload = () => {
+      initializeBoafoWidget(BOAFO_API_KEY);
+    };
+    
+    // Append script to document head
+    document.head.appendChild(script);
     
     // Cleanup function to remove script if component unmounts
     return () => {
