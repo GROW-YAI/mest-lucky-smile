@@ -54,7 +54,7 @@ const AboutInnovator = () => {
 
           {/* Innovator Details */}
           <div className="space-y-8">
-            <p className="text-lg text-gray-600">
+            <p className="text-left text-lg text-gray-600">
               Janet Tweneboah is an 18-30 female entrepreneur addressing food
               insecurity by developing innovative preservation methods for
               tigernut, pepper, okro, and prekese. Her dried, powdered products

@@ -144,47 +144,6 @@ To preview the production build locally:
 ```bash
 npm run preview
 ```
-
----
-
-## Project Structure
-
-```
-mest-lucky-smile/
-├── public/                 # Static assets
-├── src/
-│   ├── assets/            # Images, icons, and other assets
-│   ├── components/        # Reusable React components
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   └── BoafoWidgetInitializer.jsx
-│   ├── layouts/           # Layout components
-│   │   └── RootLayout.jsx
-│   ├── pages/             # Page components
-│   │   └── home/
-│   │       ├── index.jsx
-│   │       └── sections/
-│   │           ├── Hero.jsx
-│   │           ├── AboutProduct.jsx
-│   │           ├── AboutInnovator.jsx
-│   │           ├── Showcase.jsx
-│   │           └── Contact.jsx
-│   ├── types/             # TypeScript type definitions
-│   ├── App.jsx            # Main App component
-│   ├── App.css            # Global styles
-│   ├── index.css          # Index styles
-│   └── main.jsx           # Application entry point
-├── .env                   # Environment variables (not tracked by Git)
-├── .env.example           # Example environment variables
-├── .gitignore             # Git ignore rules
-├── eslint.config.js       # ESLint configuration
-├── index.html             # HTML entry point
-├── package.json           # Project dependencies and scripts
-├── tailwind.config.js     # Tailwind CSS configuration
-├── vite.config.js         # Vite configuration
-└── README.md              # Project documentation
-```
-
 ---
 
 ## Available Scripts
