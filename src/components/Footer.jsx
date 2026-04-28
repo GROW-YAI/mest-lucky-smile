@@ -6,7 +6,7 @@ import { FaTiktok } from "react-icons/fa6"; // ✅ TikTok icon (from Font Awesom
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 text-left">
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-12">
           {/* About Section */}
           <div className="mb-8">

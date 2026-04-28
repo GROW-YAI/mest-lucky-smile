@@ -4,20 +4,20 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 text-left">
         {/* Section Heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <div className="text-left mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 text-left">
             Contact Us
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-left text-lg text-gray-600 max-w-2xl mx-auto">
             Have questions or want to collaborate? Reach out to us! We'd love to
             hear from you.
           </p>
         </div>
 
         {/* Contact Information and Form */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-left">
           {/* Contact Information */}
           <div className="space-y-8">
             <div className="flex items-center space-x-4">

@@ -10,10 +10,12 @@ import Showcase from "./pages/home/sections/Showcase";
 import Contact from "./pages/home/sections/Contact";
 import Error from "./components/Error";
 import ProductCatalog from "./pages/home/sections/ProductCatalog";
+import BoafoWidgetInitializer from "./components/BoafoWidgetInitializer";
 
 const App = () => {
   return (
     <Router>
+      <BoafoWidgetInitializer />
       <ScrollToTop />
       <ScrollToTopButton />
       <Navbar />
